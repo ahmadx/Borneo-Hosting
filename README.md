@@ -27,4 +27,8 @@ Baik. Yang pertama yang harus kita lakukan ketika kita membuat sesuatu adalah me
 15. oke. saya mau bikin sarapan dulu. anak saya mau sekolah.
 16. saya sudah suruh joni bikin file html yang saya maksud di atas. sudah saya upload. silahkan di cek. nanti saya lanjutan.
 17. kalau ada yang mau ikutan koding silahkan. kabar saya ya. :-)
-18. 
+18. oke.
+19. kode joni sudah saya cek. berhasil cek domain kosong atau tersedia.
+20. tinggal saya upload kode ini ke hosting saya lalu kita lanjutkan nanti.
+21. oke? :-)
+22. 
