@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jualan Domain</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cek Domain Anda</h1>
+        <p>Masukkan nama domain yang ingin Anda cek:</p>
+        <input type="text" id="domainInput" placeholder="contoh: borneo.com">
+        <button onclick="checkDomain()">Cek Domain</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function checkDomain() {
+            const domain = document.getElementById('domainInput').value.trim();
+            const resultDiv = document.getElementById('result');
+
+            if (domain === "") {
+                resultDiv.textContent = "Mohon masukkan nama domain!";
+                resultDiv.style.color = "red";
+                return;
+            }
+
+            // Simulasi cek domain
+            const isAvailable = Math.random() > 0.5; // 50% chance tersedia
+            if (isAvailable) {
+                resultDiv.textContent = `Domain "${domain}" tersedia!`;
+                resultDiv.style.color = "green";
+            } else {
+                resultDiv.textContent = `Domain "${domain}" sudah terpakai.`;
+                resultDiv.style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>
