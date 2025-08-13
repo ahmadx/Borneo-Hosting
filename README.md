@@ -24,4 +24,7 @@ Baik. Yang pertama yang harus kita lakukan ketika kita membuat sesuatu adalah me
 12. :-)
 13. berikutnya buka chat gpt.
 14. suruh dia: bikin file index.html untuk cek domain.
-15. 
+15. oke. saya mau bikin sarapan dulu. anak saya mau sekolah.
+16. saya sudah suruh joni bikin file html yang saya maksud di atas. sudah saya upload. silahkan di cek. nanti saya lanjutan.
+17. kalau ada yang mau ikutan koding silahkan. kabar saya ya. :-)
+18. 
